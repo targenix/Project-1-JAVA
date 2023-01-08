@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 public class wicketkeeper extends BatsMan
 {
-	private int wickets;
+	private int catches;
 	private int stumps;
 	public wicketkeeper()
 	{
 	
 	}
-	public wicketkeeper(int wickets, int stumps) {
+	public wicketkeeper(int catches, int stumps) {
 		super();
-		this.wickets = wickets;
+		this.catches = catches;
 		this.stumps = stumps;
 	}
-	public int getWickets() {
-		return wickets;
+	public int getCatches() {
+		return catches;
 	}
-	public void setWickets(int wickets) {
-		this.wickets = wickets;
+	public void setCatches(int catches) {
+		this.catches = catches;
 	}
 	public int getStumps() {
 		return stumps;
@@ -35,8 +35,8 @@ public class wicketkeeper extends BatsMan
 		super.read();
 		System.out.println("Enter stumps");
 		stumps=sc.nextInt();
-		System.out.println("Enter number of Wickets");
-		wickets=sc.nextInt();
+		System.out.println("Enter number of Catches");
+		catches=sc.nextInt();
 
 	}
 	
