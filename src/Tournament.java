@@ -67,7 +67,7 @@ public class Tournament{
 		System.out.println("Year: "+year);
 		for(int i=0;i<Teamcounter;i++)
 		{
-			teams[Teamcounter].displayteam();
+			teams[i].displayteam();
 		}
 	}
 	

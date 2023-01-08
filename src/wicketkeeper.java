@@ -27,7 +27,7 @@ public class wicketkeeper extends BatsMan
 	}
 	@Override
 	public String toString() {
-		return super.toString() +"wicketkeeper [wickets=" + wickets + ", stumps=" + stumps + "]";
+		return super.toString() +"wicketkeeper [wickets=" + catches + ", stumps=" + stumps + "]";
 	}
 	public void read()
 	{
